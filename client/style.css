@@ -1,0 +1,72 @@
+    body {
+      background-color: #25252c;
+    }
+
+    .messageBox {
+      font-family: "segoe ui";
+      font-size: 15px;
+      width: 40%;
+      height: 200px;
+      margin-top: 10px;
+      display: block;
+      background-color: #fff;
+      overflow-y: scroll;
+      border: 3px solid #000;
+      border-radius: 5px;
+    }
+
+    .controllsContainer {
+      width: 40%;
+      background-color: #fff;
+      margin-top: 10px;
+      border: 3px solid #000;
+      border-radius: 5px;
+    }
+
+    .btnSend {
+      outline: none;
+      margin: 0px;
+      width: 10%;
+      background: #a0ffa0;
+      border: 2px solid #50ff50;
+      cursor: pointer;
+    }
+
+    .chatInput {
+      margin: 0px;
+      width: 88%;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      background: snow;
+      border: 1px solid #000;
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .userList {
+      overflow-x: scroll;
+      width: 40%;
+      border: 3px solid #000;
+      border-radius: 5px;
+      background: white;
+    }
+
+
+    .username {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 5px;
+    }
